@@ -1,6 +1,21 @@
 /* Your styles go here! */
+
+header {
+  background-color: orange;
+}
+
 h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
-  color: purple;
+  color: aqua;
+  background-color: white;
+  border: 2px solid black;
+  padding: 30px;
 }
+
+main {
+  color: black;
+  background-color: rgb(255,253,208)
+}
+
+
