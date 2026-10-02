@@ -70,6 +70,9 @@ figcaption {
   text-align: left;
   font-style: italic;
 }
+li {
+  line-height: 1.6;
+}
 
 
 
