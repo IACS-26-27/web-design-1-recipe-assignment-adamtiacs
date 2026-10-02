@@ -48,6 +48,7 @@ p {
   font-weight: 540;
   padding-left: 40px;
   font-family: "Roboto", sans-serif;
+  max-width: 600px;
 }
 .recipebox {
   background-color: #f0f0f0;
