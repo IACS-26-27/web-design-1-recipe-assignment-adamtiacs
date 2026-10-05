@@ -58,12 +58,24 @@ p {
   margin: 20px;
   width: 200px;
   height: 200px;
-  text-align: center;
+  text-align: left;
   /* AI-generated code starts here */
   /* Student prompt: "Move the recipe info sticky note to the right side of the page." */
   float: right; /* Float moves the note to the right side of the content. */
 }
+/* Student prompt: "How do I override h3 specifically for recipebox?" */
+.recipebox h3 {
+  padding-left: 0;
+  text-align: center;
+}
 /* AI-generated code ends here */
+
+.recipebox p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+}
 
 
 img {
