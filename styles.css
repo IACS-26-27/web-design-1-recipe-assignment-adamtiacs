@@ -19,7 +19,7 @@ main {
   color: black;
   background-color: rgb(255,253,208)
 }
-
+/* Header is Orange and has elements to change aesthetically */
 h2 {
   color: rgba(207, 139, 12, 0.856);
   text-decoration: underline;
@@ -35,10 +35,12 @@ h3 {
   font-family: "Inter", sans-serif;
 }
 
+/* Bullet points has a left margin for spacing */
 li {
   margin-left: 20px;
 }
 
+/* Set background color to cream color */
 body {
   background-color: rgb(255, 253, 208)
 }
@@ -67,6 +69,7 @@ p {
 .recipebox h3 {
   padding-left: 0;
   text-align: center;
+  font-family:"Inter", sans-serif;
 }
 /* AI-generated code ends here */
 
