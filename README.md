@@ -107,9 +107,10 @@ side-by-side in this project (unless you use `float`). ok
     color: var(--theme-color);
   }
   ```
+  done
 
 - **Advanced typography:** pair a heading font with a body font, and use at
-  least three of these to fine-tune your text:
+  least three of these to fine-tune your text done:
   - `font-weight` (using more than one weight of a font)
   - `letter-spacing`
   - `text-transform` (for example, all-caps headings)
@@ -119,7 +120,7 @@ side-by-side in this project (unless you use `float`). ok
 - Customize list markers (bullets and numbers) using `list-style` or `::marker`.
 - Use a pseudo-element (`::before` or `::after`) to add a custom marker to at least one item.
 - Use a "recipe info" box (prep time, cook time, servings — or the
-  metaphorical equivalent) styled with a class.
+  metaphorical equivalent) styled with a class. done
 
 ## Resources
 

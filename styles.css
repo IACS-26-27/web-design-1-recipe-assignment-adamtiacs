@@ -47,7 +47,7 @@ li {
 
 /* Set background color to cream color */
 body {
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 p {
