@@ -74,25 +74,25 @@ Your stylesheet should have rules for each of these:
   text that is easy to read against its background.
 - **Fonts:** At least one custom font from [Google Fonts](https://fonts.google.com/).
 - **The typography triangle:** Readable text comes from balancing three things:
-  - `font-size` — how big the letters are
-  - `line-height` — how much space is between the lines
-  - `max-width` — how long each line can get
+  - `font-size` — how big the letters are done
+  - `line-height` — how much space is between the lines done
+  - `max-width` — how long each line can get done
 
   Change one and you'll usually need to adjust the others. See
   [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
 - **Selectors:** Element selectors (`h2 { ... }`), at least one class
   (`.tip { ... }`) that styles _some_ elements differently from others of the
-  same type, and at least one descendant selector (`.tip p { ... }`) that
-  styles elements only when they are inside something else.
-- **The box model:** `padding`, `margin`, and `border` to group related
-  content and give your page room to breathe.
+  same type, and at least one descendant selector (`.tip p { ... }`) that 
+  styles elements only when they are inside something else. done
+- **The box model:** `padding`, `margin`, and `border` to group related 
+  content and give your page room to breathe. done
 - **Organization:** Your `styles.css` is organized into sections with
   comments explaining what each part styles.
 
 **No layout tools yet!** For this project, your page should flow from top to
 bottom. Do not use `display: flex`, `display: grid`, or `position`.
-We'll get to those soon. That means you generally won't be able to put items
-side-by-side in this project (unless you use `float`).
+We'll get to those soon. That means you generally won't be able to put items 
+side-by-side in this project (unless you use `float`). ok
 
 ### Honors Components (in addition to main components):
 
