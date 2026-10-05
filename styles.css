@@ -50,15 +50,20 @@ p {
   font-family: "Roboto", sans-serif;
   max-width: 600px;
 }
+
 .recipebox {
   background-color: #f0f0f0;
   border: 2px solid #ccc;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px;
   width: 200px;
   height: 200px;
   text-align: center;
+  /* AI-generated code starts here */
+  /* Student prompt: "Move the recipe info sticky note to the right side of the page." */
+  float: right; /* Float moves the note to the right side of the content. */
 }
+/* AI-generated code ends here */
 
 
 img {
