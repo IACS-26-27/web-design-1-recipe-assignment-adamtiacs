@@ -45,27 +45,27 @@ include a comment in your code to credit the AI:
 
 ### HTML Structure:
 
-- Headings (`<h1>`, `<h2>`, `<h3>`) that show how your recipe is organized
+- Headings (`<h1>`, `<h2>`, `<h3>`) that show how your recipe is organized done
 - Paragraphs (`<p>`)
-- At least one list (`<ul>` or `<ol>`)
-- At least one image (`<img>`) with `alt` text describing it
+- At least one list (`<ul>` or `<ol>`) done
+- At least one image (`<img>`) with `alt` text describing it done
 - **Semantic groupings:** `<header>`, `<main>`, and `<footer>` for the big
   parts of the page, and `<section>` or `<div>` to group the parts of your
   recipe
 - A citations page (`citations.html`, already linked in your footer) crediting any
-  images or other sources you used and acknowledging any AI use.
+  images or other sources you used and acknowledging any AI use. 
 
 ### What to Style:
 
 Your stylesheet should have rules for each of these:
 
 - **The page** (`body`): background color, text color, and your main font
-- **Headings** (`h1`, `h2`, `h3`): a heading font, colors, and sizes that make
+- **Headings** (`h1`, `h2`, `h3`): a heading font, colors, and sizes that make done
   it clear what is most important
-- **Text** (`p`, `li`): a readable font size and `line-height`
-- **Your sections:** `padding`, `margin`, and a `border` or background color
+- **Text** (`p`, `li`): a readable font size and `line-height` done
+- **Your sections:** `padding`, `margin`, and a `border` or background color done
   so each part of the recipe is clearly grouped
-- **Images:** a size that fits nicely on the page
+- **Images:** a size that fits nicely on the page done 
 - **Header and footer**, including the link to your citations page
 
 ### CSS Requirements:
