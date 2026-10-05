@@ -3,6 +3,7 @@
 :root {
   --background-color: rgb(255, 253, 208);
   --font-family: "Inter", sans-serif;
+  --font-family2: "Roboto", sans-serif;
 }
 header {
   margin-left: 5px;
@@ -53,7 +54,7 @@ p {
   color: #333333;
   font-weight: 540;
   padding-left: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family2);
   max-width: 600px;
 }
 
@@ -73,7 +74,7 @@ p {
 .recipebox h3 {
   padding-left: 0;
   text-align: center;
-  font-family:"Inter", sans-serif;
+  font-family: var(--font-family);
 }
 /* AI-generated code ends here */
 
@@ -91,7 +92,7 @@ img {
 
 figcaption {
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family2);
   text-align: left;
   font-style: italic;
 }
