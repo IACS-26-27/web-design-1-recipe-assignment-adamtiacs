@@ -104,5 +104,11 @@ li {
   font-family: var(--font-family2);
 }
 
+/* Add marker to list */
+ul li::marker {
+  color: tan;
+  font-size: 1.2em;
+}
+
 
 
