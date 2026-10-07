@@ -109,6 +109,14 @@ ul li::marker {
   color: tan;
   font-size: 1.2em;
 }
-
-
+/* Use psuedo-element to ::before to add custom marker for important item*/
+li.important {
+  /* AI generated code starts here */
+  list-style:none;
+  margin-left: 0px
+}
+li.important::before {
+  /* AI generated code ends here */
+  content: "★ ";
+}
 
