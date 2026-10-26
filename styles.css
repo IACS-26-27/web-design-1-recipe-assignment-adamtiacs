@@ -13,7 +13,7 @@ h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
   color: #0cb8d6;
-  background-color: #008B8B;
+  background-color: white;
   border: 2px solid black;
   padding: 30px;
   text-align: center;
@@ -26,14 +26,14 @@ main {
 }
 /* Header is Orange and has elements to change aesthetically */
 h2 {
-  color: rgba(207, 139, 12, 0.856);
+  color: #704214;
   text-decoration: underline;
   padding-left: 30px;
   font-family: var(--font-family);
 }
 
 h3 {
-  color: rgb(199, 186, 6);
+  color: grey;
   text-decoration: underline;
   font-weight: 800;
   padding-left: 30px;
@@ -48,6 +48,7 @@ li {
 /* Set background color to cream color */
 body {
   background-color: var(--background-color);
+  font-family: var(--font-family2):
 }
 
 p {
@@ -77,6 +78,7 @@ p {
   padding-left: 0;
   text-align: center;
   font-family: var(--font-family);
+  color: #222222;
 }
 /* AI-generated code ends here */
 
