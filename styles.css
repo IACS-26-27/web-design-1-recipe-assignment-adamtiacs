@@ -25,14 +25,14 @@ main {
   background-color: rgb(255,253,208)
 }
 /* Header is Orange and has elements to change aesthetically */
-h2 {
+h3 {
   color: #704214;
   text-decoration: underline;
   padding-left: 30px;
   font-family: var(--font-family);
 }
 
-h3 {
+h2 {
   color: grey;
   text-decoration: underline;
   font-weight: 800;
