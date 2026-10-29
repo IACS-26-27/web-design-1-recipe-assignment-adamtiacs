@@ -123,3 +123,20 @@ li.important::before {
   content: "★ ";
 }
 
+/* AI generated code starts here */
+.highlight-balance {
+  background-color: #e2f0d9;
+  color: #2e6f40;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.highlight-challenge {
+  background-color: #fce4d6;
+  color: #8b3a00;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+/* AI Generated code ends here /*
