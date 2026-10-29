@@ -57,6 +57,7 @@ p {
   padding-left: 40px;
   font-family: var(--font-family2);
   max-width: 600px;
+  line-height: 1.6;
 }
 
 .recipebox {
@@ -65,7 +66,7 @@ p {
   padding: 20px;
   margin: 20px;
   width: 200px;
-  height: 200px;
+  height: 230px;
   text-align: left;
   /* AI-generated code starts here */
   /* Student prompt: "Move the recipe info sticky note to the right side of the page." */
