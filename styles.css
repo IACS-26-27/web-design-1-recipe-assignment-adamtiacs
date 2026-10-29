@@ -1,6 +1,143 @@
 /* Your styles go here! */
+
+:root {
+  --background-color: rgb(255, 253, 208);
+  --font-family: "Inter", sans-serif;
+  --font-family2: "Roboto", sans-serif;
+}
+header {
+  margin-left: 5px;
+}
+
 h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
-  color: purple;
+  color: #0cb8d6;
+  background-color: #222222;
+  border: 2px solid black;
+  padding: 30px;
+  text-align: center;
+  font-family: var(--font-family);
 }
+
+main {
+  color: black;
+  background-color: rgb(255,253,208)
+}
+/* Header is Orange and has elements to change aesthetically */
+h3 {
+  color: #704214;
+  text-decoration: underline;
+  padding-left: 30px;
+  font-family: var(--font-family);
+}
+
+h2 {
+  color: grey;
+  text-decoration: underline;
+  font-weight: 800;
+  padding-left: 30px;
+  font-family: var(--font-family);
+}
+
+/* Bullet points has a left margin for spacing */
+li {
+  margin-left: 20px;
+}
+
+/* Set background color to cream color */
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family2);
+}
+
+p {
+  color: #333333;
+  font-weight: 540;
+  padding-left: 40px;
+  font-family: var(--font-family2);
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.recipebox {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-right: 250px;
+  margin-top: 20px;
+  width: 200px;
+  height: 230px;
+  text-align: left;
+  /* AI-generated code starts here */
+  /* Student prompt: "Move the recipe info sticky note to the right side of the page." */
+  float: right; /* Float moves the note to the right side of the content. */
+}
+/* Student prompt: "How do I override h3 specifically for recipebox?" */
+.recipebox h3 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-left: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  color: #222222;
+}
+/* AI-generated code ends here */
+
+.recipebox p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+
+img {
+  width: 400px;
+}
+
+figcaption {
+  font-weight: 700;
+  font-family: var(--font-family2);
+  text-align: left;
+  font-style: italic;
+}
+
+li {
+  line-height: 1.6;
+  font-family: var(--font-family2);
+}
+
+/* Add marker to list */
+ul li::marker {
+  color: tan;
+  font-size: 1.2em;
+}
+/* Use psuedo-element to ::before to add custom marker for important item*/
+li.important {
+  /* AI generated code starts here */
+  list-style:none;
+  margin-left: 0px
+}
+li.important::before {
+  /* AI generated code ends here */
+  content: "★ ";
+}
+
+/* AI generated code starts here */
+.highlight-balance {
+  background-color: #e2f0d9;
+  color: #2e6f40;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.highlight-challenge {
+  background-color: #fce4d6;
+  color: #8b3a00;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+/* AI Generated code ends here /*

@@ -45,27 +45,27 @@ include a comment in your code to credit the AI:
 
 ### HTML Structure:
 
-- Headings (`<h1>`, `<h2>`, `<h3>`) that show how your recipe is organized
+- Headings (`<h1>`, `<h2>`, `<h3>`) that show how your recipe is organized done
 - Paragraphs (`<p>`)
-- At least one list (`<ul>` or `<ol>`)
-- At least one image (`<img>`) with `alt` text describing it
+- At least one list (`<ul>` or `<ol>`) done
+- At least one image (`<img>`) with `alt` text describing it done
 - **Semantic groupings:** `<header>`, `<main>`, and `<footer>` for the big
   parts of the page, and `<section>` or `<div>` to group the parts of your
   recipe
 - A citations page (`citations.html`, already linked in your footer) crediting any
-  images or other sources you used and acknowledging any AI use.
+  images or other sources you used and acknowledging any AI use. 
 
 ### What to Style:
 
 Your stylesheet should have rules for each of these:
 
 - **The page** (`body`): background color, text color, and your main font
-- **Headings** (`h1`, `h2`, `h3`): a heading font, colors, and sizes that make
+- **Headings** (`h1`, `h2`, `h3`): a heading font, colors, and sizes that make done
   it clear what is most important
-- **Text** (`p`, `li`): a readable font size and `line-height`
-- **Your sections:** `padding`, `margin`, and a `border` or background color
+- **Text** (`p`, `li`): a readable font size and `line-height` done
+- **Your sections:** `padding`, `margin`, and a `border` or background color done
   so each part of the recipe is clearly grouped
-- **Images:** a size that fits nicely on the page
+- **Images:** a size that fits nicely on the page done 
 - **Header and footer**, including the link to your citations page
 
 ### CSS Requirements:
@@ -74,25 +74,25 @@ Your stylesheet should have rules for each of these:
   text that is easy to read against its background.
 - **Fonts:** At least one custom font from [Google Fonts](https://fonts.google.com/).
 - **The typography triangle:** Readable text comes from balancing three things:
-  - `font-size` — how big the letters are
-  - `line-height` — how much space is between the lines
-  - `max-width` — how long each line can get
+  - `font-size` — how big the letters are done
+  - `line-height` — how much space is between the lines done
+  - `max-width` — how long each line can get done
 
   Change one and you'll usually need to adjust the others. See
   [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
 - **Selectors:** Element selectors (`h2 { ... }`), at least one class
   (`.tip { ... }`) that styles _some_ elements differently from others of the
-  same type, and at least one descendant selector (`.tip p { ... }`) that
-  styles elements only when they are inside something else.
-- **The box model:** `padding`, `margin`, and `border` to group related
-  content and give your page room to breathe.
+  same type, and at least one descendant selector (`.tip p { ... }`) that 
+  styles elements only when they are inside something else. done
+- **The box model:** `padding`, `margin`, and `border` to group related 
+  content and give your page room to breathe. done
 - **Organization:** Your `styles.css` is organized into sections with
   comments explaining what each part styles.
 
 **No layout tools yet!** For this project, your page should flow from top to
 bottom. Do not use `display: flex`, `display: grid`, or `position`.
-We'll get to those soon. That means you generally won't be able to put items
-side-by-side in this project (unless you use `float`).
+We'll get to those soon. That means you generally won't be able to put items 
+side-by-side in this project (unless you use `float`). ok
 
 ### Honors Components (in addition to main components):
 
@@ -107,9 +107,10 @@ side-by-side in this project (unless you use `float`).
     color: var(--theme-color);
   }
   ```
+  done
 
 - **Advanced typography:** pair a heading font with a body font, and use at
-  least three of these to fine-tune your text:
+  least three of these to fine-tune your text done:
   - `font-weight` (using more than one weight of a font)
   - `letter-spacing`
   - `text-transform` (for example, all-caps headings)
@@ -119,7 +120,7 @@ side-by-side in this project (unless you use `float`).
 - Customize list markers (bullets and numbers) using `list-style` or `::marker`.
 - Use a pseudo-element (`::before` or `::after`) to add a custom marker to at least one item.
 - Use a "recipe info" box (prep time, cook time, servings — or the
-  metaphorical equivalent) styled with a class.
+  metaphorical equivalent) styled with a class. done
 
 ## Resources
 
